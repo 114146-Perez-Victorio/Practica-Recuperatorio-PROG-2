@@ -1,0 +1,42 @@
+<h1>Agregar factura</h1>
+
+
+<form #facturaForm="ngForm" (ngSubmit)="guardarFactura(facturaForm)">
+
+    <!-- Campo de Fecha -->
+    <div class="mb-3">
+      <label for="fecha" class="form-label">Fecha</label>
+      <input type="date" class="form-control" id="fecha" name="fecha" [(ngModel)]="factura.createdDate" required>
+      <div *ngIf="factura.createdDate == null && facturaForm.submitted" class="text-danger">
+        La fecha es obligatoria.
+      </div>
+    </div>
+  
+
+    <!-- Campo de Cliente o Razón Social -->
+    <div class="mb-3">
+      <label for="clienteRazonSocial" class="form-label">Cliente/Razón Social</label>
+      <input type="text" class="form-control" id="clienteRazonSocial" name="clienteRazonSocial" [(ngModel)]="factura.clientName" required>
+      <div *ngIf="factura.clientName == '' && facturaForm.submitted" class="text-danger">
+        El nombre es obligatorio
+      </div>
+    </div>
+  
+    <!-- Campo de Tipo de Factura -->
+    <div class="mb-3">
+      <label for="tipoFactura" class="form-label">Tipo de Factura</label>
+      <select class="form-select" id="tipoFactura" name="tipoFactura" [(ngModel)]="factura.tpe" required>
+        <option value="A"> A</option>
+        <option value="B"> B</option>
+        <option value="C"> C</option>
+      </select>
+      <div *ngIf="factura.tpe == '' && facturaForm.submitted" class="text-danger">
+        el tipo de facturacion es obligatoria
+      </div>
+    </div>
+  
+    <!-- Botón de Enviar -->
+    <button type="submit" class="btn btn-primary">Guardar Factura</button>
+  
+  </form>
+  

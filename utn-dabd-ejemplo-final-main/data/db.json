@@ -1,0 +1,86 @@
+{
+  "invoices": [
+    {
+      "id": "59e05f26-5830-48c9-825b-4704b9cb5969",
+      "createdDate": "2023-10-20",
+      "clientName": "Panificadora del Valle S.A.",
+      "tpe": "A",
+      "details": [
+        {
+          "id": "bc1b18f7-fccf-4770-9139-e5b3ee6cec75",
+          "productName": "Harina por pitos de 50kg",
+          "amount": 2,
+          "price": 15000
+        },
+        {
+          "id": "",
+          "productName": "asdsasdamsdamsda",
+          "amount": 5,
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "59e05f26-5830-48c9-825b-4704b9cb5989",
+      "createdDate": "2023-10-20",
+      "clientName": "Panificadora del Valle S.A.",
+      "tpe": "A",
+      "details": [
+        {
+          "id": "bc1b18f7-fccf-4770-9139-e5b3ee6cec75",
+          "productName": "Harina por bolsa de 50kg",
+          "amount": 2,
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "id": "RlvbyNM",
+      "createdDate": "2026-03-03",
+      "clientName": "GustavitoFASITO",
+      "tpe": "A",
+      "details": [
+        {
+          "id": "",
+          "productName": "banana",
+          "amount": 5,
+          "price": 10
+        },
+        {
+          "id": "",
+          "productName": "fasitobienricoo",
+          "amount": 5,
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "j9ttIQg",
+      "createdDate": "2043-04-05",
+      "clientName": "viejochoto",
+      "tpe": "B",
+      "details": [
+        {
+          "id": "",
+          "productName": "pizzaaaassdasdjk32hrh32rhqp23hifhlsdjklk",
+          "amount": 5,
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "Px1YDeN",
+      "createdDate": "2025-05-05",
+      "clientName": "kokakola",
+      "tpe": "C",
+      "details": [
+        {
+          "id": "",
+          "productName": "gaseositaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "amount": 7,
+          "price": 600
+        }
+      ]
+    }
+  ]
+}

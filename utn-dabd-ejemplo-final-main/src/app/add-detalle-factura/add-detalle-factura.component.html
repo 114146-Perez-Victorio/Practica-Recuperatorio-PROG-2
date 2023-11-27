@@ -1,0 +1,20 @@
+<h1>Detalle factura</h1>
+<form [formGroup]="formDetalle">
+    <div class="mb-3">
+      <label for="nombreProducto" class="form-label">Nombre de Producto</label>
+      <input type="text" class="form-control" id="nombreProducto" formControlName="productName">
+    </div>
+  
+    <div class="mb-3">
+      <label for="cantidad" class="form-label">Cantidad</label>
+      <input type="number" class="form-control" id="cantidad" formControlName="amount">
+    </div>
+  
+    <div class="mb-3">
+      <label for="precioUnitario" class="form-label">Precio Unitario</label>
+      <input type="number" class="form-control" id="precioUnitario" formControlName="price">
+    </div>
+  
+    <button type="button" class="btn btn-primary" (click)="guardarDetalle()">Guardar Detalle</button>
+  </form>
+  
